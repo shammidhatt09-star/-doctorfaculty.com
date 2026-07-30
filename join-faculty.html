@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5FR53TYFRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5FR53TYFRN');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join DoctorFaculty and share your interest in medical faculty opportunities across India." />
+  <title>Join as Faculty | DoctorFaculty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260720-3" />
+  <link rel="icon" type="image/png" href="doctorfaculty-favicon.png?v=20260718-4" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo logo-image" href="index.html#home" aria-label="DoctorFaculty home"><span><img src="doctorfaculty-logo-transparent-v2.png?v=20260718-5" alt="DoctorFaculty" /></span></a>
+      <a class="back-home" href="index.html">Back to homepage <span>←</span></a>
+    </nav>
+  </header>
+
+  <main class="join-page">
+    <section class="join-intro">
+      <div class="container join-intro-grid">
+        <div>
+          <p class="eyebrow"><i></i> Join as faculty today</p>
+          <h1>Tell us where you want your <em>academic career</em> to go.</h1>
+        </div>
+        <div>
+          <p>Complete the form to share your interest in medical faculty opportunities. All details are required except your CV, which you may upload whenever you are ready.</p>
+          <a class="eligibility-cta" href="eligibility-check.html"><strong>Not sure about your designation as per NMC guidelines?</strong><span>Click here to check your eligibility →</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="join-form-section">
+      <div class="container join-form-layout">
+        <div class="form-aside">
+          <p class="eyebrow">Faculty application</p>
+          <h2>Start your next professional conversation.</h2>
+          <p>Your details help us understand your experience, preferred location and the type of opportunity that may be relevant to you.</p>
+          <div class="required-note"><span>*</span> All fields are mandatory except CV upload.</div>
+        </div>
+
+        <form class="faculty-application" action="https://formsubmit.co/doctorfaculty09@gmail.com" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="New DoctorFaculty faculty application" />
+          <input type="hidden" name="_template" value="table" />
+
+          <label>Full name <b>*</b><input type="text" name="name" autocomplete="name" placeholder="Dr. Your name" required /></label>
+          <label>Current designation <b>*</b><input type="text" name="designation" placeholder="e.g. Assistant Professor" required /></label>
+          <label>Department <b>*</b><input type="text" name="department" placeholder="e.g. General Medicine" required /></label>
+          <label>Experience in years <b>*</b><input type="number" name="experience_years" min="0" step="0.5" placeholder="e.g. 5" required /></label>
+          <label class="field-wide">Preferred location <b>*</b><input type="text" name="preferred_location" placeholder="City, state, or anywhere in India" required /></label>
+          <label>Email address <b>*</b><input type="email" name="email" autocomplete="email" placeholder="doctor@example.com" required /></label>
+          <label>Phone number <b>*</b><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="Your contact number" required /></label>
+          <label class="field-wide">Curriculum vitae <small>Optional</small><input type="file" name="attachment" accept=".pdf,.doc,.docx" /></label>
+
+          <p class="form-privacy">Your information will be used only to understand and respond to your faculty-career interests.</p>
+          <button class="button primary" type="submit">Submit faculty application <span>→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-bottom join-footer"><span>© 2026 DoctorFaculty. All rights reserved.</span><span>Made in India for medical education</span></div></footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5FR53TYFRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5FR53TYFRN');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Share your qualifications and teaching experience for a preliminary DoctorFaculty eligibility review." />
+  <title>Check Your Faculty Eligibility | DoctorFaculty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260720-3" />
+  <link rel="icon" type="image/png" href="doctorfaculty-favicon.png?v=20260718-4" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo logo-image" href="index.html#home" aria-label="DoctorFaculty home"><span><img src="doctorfaculty-logo-transparent-v2.png?v=20260718-5" alt="DoctorFaculty" /></span></a>
+      <a class="back-home" href="index.html#eligibility">Back to eligibility overview <span>←</span></a>
+    </nav>
+  </header>
+
+  <main class="join-page eligibility-query-page">
+    <section class="join-intro eligibility-query-intro">
+      <div class="container join-intro-grid">
+        <div>
+          <p class="eyebrow"><i></i> Eligibility &amp; qualifications</p>
+          <h1>Check your faculty <em>eligibility.</em></h1>
+        </div>
+        <div>
+          <p>Share your qualifications, specialty and teaching experience. The DoctorFaculty team will review your information and help you understand the faculty designation that may suit your profile.</p>
+          <p class="eligibility-intro-note">All fields are required except additional qualifications, additional details and CV upload.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="join-form-section eligibility-form-section">
+      <div class="container join-form-layout">
+        <aside class="form-aside">
+          <p class="eyebrow">Eligibility query</p>
+          <h2>Tell us about your academic profile.</h2>
+          <p>Provide accurate details so your query can be reviewed against the regulations relevant to your specialty and intended designation.</p>
+          <div class="required-note"><span>*</span> Required information</div>
+        </aside>
+
+        <form class="faculty-application eligibility-application" action="https://formsubmit.co/doctorfaculty09@gmail.com" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="New DoctorFaculty faculty eligibility query" />
+          <input type="hidden" name="_template" value="table" />
+
+          <h3 class="form-section-title">Contact information</h3>
+          <label>Full name <b>*</b><input type="text" name="name" autocomplete="name" placeholder="Dr. Your name" required /></label>
+          <label>Email address <b>*</b><input type="email" name="email" autocomplete="email" placeholder="doctor@example.com" required /></label>
+          <label>Phone number <b>*</b><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="Your contact number" required /></label>
+          <label>Current city and state <b>*</b><input type="text" name="current_location" placeholder="e.g. Jaipur, Rajasthan" required /></label>
+
+          <h3 class="form-section-title">Qualifications and specialty</h3>
+          <label>Primary medical qualification <b>*</b><input type="text" name="primary_qualification" placeholder="e.g. MBBS" required /></label>
+          <label>Postgraduate qualification <b>*</b><input type="text" name="postgraduate_qualification" placeholder="e.g. MD, MS or DNB" required /></label>
+          <label>Specialty or department <b>*</b><input type="text" name="specialty_department" placeholder="e.g. General Medicine" required /></label>
+          <label>Additional qualification <small>Optional</small><input type="text" name="additional_qualification" placeholder="Fellowship, diploma or other qualification" /></label>
+
+          <h3 class="form-section-title">Teaching experience</h3>
+          <label>Current designation <b>*</b><input type="text" name="current_designation" placeholder="e.g. Senior Resident" required /></label>
+          <label>Current institution <b>*</b><input type="text" name="current_institution" placeholder="Medical college or hospital" required /></label>
+          <label>Total teaching experience <b>*</b><input type="number" name="total_teaching_experience_years" min="0" step="0.5" placeholder="Years" required /></label>
+          <label>Experience in current designation <b>*</b><input type="number" name="current_designation_experience_years" min="0" step="0.5" placeholder="Years" required /></label>
+
+          <h3 class="form-section-title">Role and academic contribution</h3>
+          <label>Research publications <b>*</b><input type="number" name="research_publications" min="0" step="1" placeholder="Enter 0 if none" required /></label>
+          <label>Desired faculty designation <b>*</b><select name="desired_faculty_designation" required><option value="" selected disabled>Select a designation</option><option>Assistant Professor</option><option>Associate Professor</option><option>Professor</option><option>Not sure — please advise</option></select></label>
+          <label class="field-wide">Additional details <small>Optional</small><textarea name="additional_details" rows="5" placeholder="Mention senior residency, promotions, research work, administrative experience or any specific eligibility question."></textarea></label>
+          <label class="field-wide">Curriculum vitae <small>Optional</small><input type="file" name="attachment" accept=".pdf,.doc,.docx" /></label>
+
+          <p class="form-privacy">Your information will be used only to review and respond to your faculty-eligibility query.</p>
+          <p class="eligibility-disclaimer"><strong>Important:</strong> This is a preliminary guidance service, not an official eligibility determination. Final eligibility depends on the latest applicable NMC regulations and verification by the relevant medical college or authority.</p>
+          <button class="button primary" type="submit">Submit eligibility query <span>→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-bottom join-footer"><span>© 2026 DoctorFaculty. All rights reserved.</span><span>Made in India for medical education</span></div></footer>
+</body>
+</html>
