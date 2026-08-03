@@ -36,3 +36,22 @@
 .faculty-application label{font-size:13px}
 .form-section-title{font-size:13px}
 .source-link{display:inline-block;font:700 14px Manrope,sans-serif;color:var(--navy);text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:9px;margin-top:22px}
+
+/* Lead-gen widgets: left tab, bottom bar, popup — 2026-08-03 */
+.df-left-tab{position:fixed;left:0;top:50%;transform:translateY(-50%) rotate(-90deg) translateX(50%);transform-origin:left center;background:var(--gold);color:#111c23;font:700 13px Manrope,sans-serif;padding:12px 18px;border-radius:0 0 6px 6px;cursor:pointer;z-index:40;letter-spacing:.02em;box-shadow:2px 2px 10px rgba(0,0,0,.2);border:0}
+.df-left-tab:hover{background:var(--gold-light)}
+.df-bottom-bar{position:fixed;left:0;right:0;bottom:0;background:var(--navy);color:#f7f4e9;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 24px;z-index:39;border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}
+.df-bottom-bar p{margin:0;font-size:14px;line-height:1.4}
+.df-bottom-bar-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.df-bottom-bar-actions button{font:700 13px Manrope,sans-serif;border:0;cursor:pointer}
+#dfBottomBarCta{background:var(--gold);color:#111c23;padding:11px 16px;white-space:nowrap;border-radius:2px}
+#dfBottomBarCta:hover{background:var(--gold-light)}
+.df-bottom-bar-close{background:transparent;color:#cfd6d4;font-size:20px;line-height:1;padding:4px 8px}
+.df-popup-overlay{position:fixed;inset:0;background:rgba(8,23,34,.6);display:flex;align-items:center;justify-content:center;z-index:50;padding:20px}
+.df-popup-overlay[hidden]{display:none}
+.df-popup{position:relative;background:var(--ivory);color:var(--navy);max-width:420px;width:100%;padding:36px 32px;border-radius:4px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.df-popup h3{font:600 30px Newsreader,Georgia,serif;margin:10px 0 14px;line-height:1.1;color:var(--navy)}
+.df-popup p{font-size:15px;line-height:1.6;color:var(--body);margin:0 0 22px}
+.df-popup-close{position:absolute;top:14px;right:16px;background:transparent;border:0;font-size:22px;color:#8a938f;cursor:pointer;line-height:1}
+.df-popup-close:hover{color:var(--navy)}
+@media(max-width:800px){.df-left-tab{padding:10px 14px;font-size:11px}.df-bottom-bar{padding:12px 16px;gap:12px}.df-bottom-bar p{font-size:12px}.df-popup{padding:28px 22px}.df-popup h3{font-size:24px}}
